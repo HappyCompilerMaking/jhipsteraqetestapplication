@@ -1,0 +1,46 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "jhipsteraqetestApplication",
+    "packageName": "com.aqetest.myapp",
+    "packageFolder": "com/aqetest/myapp",
+    "serverPort": 8099,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.3.0",
+    "jwtSecretKey": "OWM3NDRiZTExN2Y0OGEwOWY4YmU2OWNiNzgwZGQzMWY0ZWYyYTk4ZjhmOGMyY2I3YmJlMWYxMGM3NDIzZDE3NzFiNjMxNTQzYjk4OTZlZGMxNjgxNDJkMDg5NTVhOTYwYTA3NjE2ZWE2ZWZkMWMwMGE0ZjUzZWNmNWRhNzkyYTM=",
+    "embeddableLaunchScript": false,
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "HappyCompilerMaking",
+  "repository-name": "jhipsteraqetestapplication"
+}

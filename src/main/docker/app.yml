@@ -1,0 +1,16 @@
+version: '2'
+services:
+  jhipsteraqetestapplication-app:
+    image: jhipsteraqetestapplication
+    environment:
+      - _JAVA_OPTIONS=-Xmx512m -Xms256m
+      - SPRING_PROFILES_ACTIVE=prod,swagger
+      - MANAGEMENT_METRICS_EXPORT_PROMETHEUS_ENABLED=true
+      - SPRING_DATASOURCE_URL=jdbc:mysql://jhipsteraqetestapplication-mysql:3306/jhipsteraqetestapplication?useUnicode=true&characterEncoding=utf8&useSSL=false
+      - JHIPSTER_SLEEP=30 # gives time for other services to boot before the application
+    ports:
+      - 8099:8099
+  jhipsteraqetestapplication-mysql:
+    extends:
+      file: mysql.yml
+      service: jhipsteraqetestapplication-mysql
